@@ -11,6 +11,7 @@ Vagrant.configure("2") do |config|
      vb.gui = true
      vb.name = "deb10-1"
      vb.memory = "1024"
+     vb.cpus = 1
   end
 
   config.vm.provision "shell" do |s|
